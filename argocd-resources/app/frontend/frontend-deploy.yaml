@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
         - name: web
-          image: ofmw/frontend:2404190747_16
+          image: jjj920217/frontend:2404230325_8
           ports:
             - containerPort: 80
