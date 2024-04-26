@@ -3,7 +3,7 @@ kind: HorizontalPodAutoscaler
 metadata:
   name: backend-hpa
 spec:
-  minReplicas: 3  # 최소 replicas 개수
+  minReplicas: 1  # 최소 replicas 개수
   maxReplicas: 100  # 최대 replicas 개수
   behavior:
     scaleDown:
