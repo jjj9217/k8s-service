@@ -5,13 +5,13 @@ metadata:
 spec:
   minReplicas: 1  # 최소 replicas 개수
   maxReplicas: 100  # 최대 replicas 개수
-  behavior:
-    scaleDown:
-      stabilizationWindowSeconds: 300
-      policies:
-      - type: Pods
-        value: 1
-        periodSeconds: 15
+  # behavior:
+  #   scaleDown:
+  #     stabilizationWindowSeconds: 300
+  #     policies:
+  #     - type: Pods
+  #       value: 1
+  #       periodSeconds: 15
   metrics:
   - type: Resource  # 리소스 타입 선언
     resource:
