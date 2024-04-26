@@ -7,7 +7,7 @@ spec:
   maxReplicas: 100  # 최대 replicas 개수
   behavior:
     scaleDown:
-      stabilizationWindowSeconds: 300
+      # stabilizationWindowSeconds: 300
       policies:
       - type: Pods
         value: 1
